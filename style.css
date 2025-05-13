@@ -1,0 +1,27 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    padding: 20px;
+    background-color: gray;
+}
+
+.tarefa {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+}
+
+.botao {
+    font-size: 20px;
+    padding: 12px 24px;
+    border-radius: 8px;
+    background-color: blue;
+    cursor: pointer;
+}
+
+button.hover {
+    background-color: aqua;
+}
+
+#template { 
+    display: none;  /* fica invisível */
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Tarefas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Minhas Tarefas</h1>
+
+    <button class="botao" id="addTarefa">Adicionar Tarefa</button>
+
+    <div id="template">
+        <div class="tarefa">
+            <h2>{{ titulo }}</h2>
+            
+            <p><strong>Descricão:</strong> {{ descrição }}</p> 
+            <!-- strong é pra deixar em negrito -->
+
+            <p><strong>Prazo:</strong> {{ prazo }}</p>
+        
+        <label>
+            Concluido:
+            <input type="checkbox" name="tarefaConcluida">
+        </label>
+        <hr> <!-- criar uma linha -->
+        </div>
+    </div>
+
+    <div id="saida"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
